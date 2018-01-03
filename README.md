@@ -9,7 +9,7 @@ const API = new Shoppy.API(apiKey)
 
 # Installation
 ```javascript
-$ npm install shoppy.gg
+$ npm install shoppy
 ```
 
 # API
