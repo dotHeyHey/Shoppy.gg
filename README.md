@@ -2,7 +2,7 @@
 Wrapper for the Shoppy.gg API
 
 ```js
-const Shoppy = require('Shoppy.gg');
+const Shoppy = require('Shoppy');
 
 const API = new Shoppy.API(apiKey)
 ```
