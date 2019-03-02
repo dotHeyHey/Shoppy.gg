@@ -13,30 +13,71 @@ $ npm install shoppy
 ```
 
 # API
-To make Shoppy.gg API calls you need to initate the Shoppy.API class by passing it your Shoppy.gg Api Key.
+To make Shoppy.gg API calls you need to initate the Shoppy.API class by passing it your Shoppy.gg API Key.
 
 All calls return a promise with the data from the response. If there is an error making the request or the status of the request from Shoppy is not "success" the promise will be rejected.
 
-### getSingleOrder(ID)
-Retrives a single order. Pass it your orderId
+# Available Functions (API Endpoints)
 
 ### getOrders()
-Retrives all orders.
+Retrieves all orders.
 
-### getSingleWebhook(ID)
-Retrives a specific webhook. Pass it your webhookId.
+### getSpecificOrder(ID)
+Retrieves a specific order.
 
-### getWebhooks
-Retrives all webhooks.
+### getProducts()
+Retrieves all products.
 
-### getSingleFeedback(ID)
-Retrives a single feedback. Pass it your feedbackId.
+### getSpecificProduct(ID)
+Retrieves a specific product.
 
-### getFeedback()
-Retrives all feedback.
+### updateProduct(ID, {})
+Updates a specific product.
 
-### getSingleQuery(ID)
-Retrives a single query. Pass it your queryId.
+### getCoupons()
+Retrieves all coupons.
+
+### getSpecificCoupon(ID)
+Retrieves a specific coupon
 
 ### getQueries()
 Retrieves all queries.
+
+### getSpecificQuery(ID)
+Retrieves a specific query.
+
+### getWebhooks()
+Retrieves all webhooks.
+
+### getSpecificWebhook(ID)
+Retrieves a specific webhook.
+
+### getFeedback()
+Retrieves all feedback.
+
+### getSpecificFeedback(ID)
+Retrieves a specific feedback.
+
+### getTickets()
+Retrieves all tickets.
+
+### getSpecificTicket(ID)
+Retrieves a specific ticket.
+
+### getNotifications()
+Retrieves all notifications.
+
+### markAllNotificationsAsRead()
+Marks all notifications as read.
+
+### markNotificationAsRead(ID)
+Marks a specific notification as read.
+
+### getUser()
+Retrieves your user info.
+
+### getSettings()
+Retrieves your settings.
+
+### updateSettings({})
+Updates your settings.
